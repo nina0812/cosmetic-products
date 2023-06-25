@@ -1,0 +1,123 @@
+.logo
+{
+	width: 300px;
+	height: 150px;
+}
+.carousel-item {
+    /* height: 100vh; */
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 270px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color:white;
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+    
+#footer {
+	padding-top:20px;
+	background-color: #888888;
+	padding-bottom:20px;
+	color: black;
+}
+#footer h5 {
+
+	color: black;
+}
+
+
+.image-main-section{
+  margin-bottom:20px;
+}
+.img-part{
+  border-radius: 5px;
+  margin:0px;
+  border:1px solid #DDDDDD;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.img-section{
+  padding: 5px;
+}
+.img-section img{
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+}
+.image-title h3,h5{
+  margin:0px;
+  color: #848484;
+  padding: 15px 0px 8px 0px;
+}
+.image-description p{
+  color:#848484;
+}
+.price-btn{
+  border-radius:0px;
+  font-size: 11px;
+  background: #f800b4b3;
+  border-color: #b90187b3;
+}
+@media only screen and (max-width: 768px) {
+
+}

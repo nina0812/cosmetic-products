@@ -1,0 +1,69 @@
+body {  font-family: "Poppins", sans-serif;
+}
+
+.botun {
+  text-align: right;
+}
+
+
+#window-add {
+  top: 50;
+  background: #fff;
+  z-index: 99;
+  border: solid 1px;
+  border-radius: 2px;
+  width: 750px;
+  padding: 15px;
+}
+.unutar-dialoga {
+  padding: 30px;
+}
+.ugasi-dialog {
+  right: 35px;
+  position: absolute;
+}
+
+.image-main-section{
+  margin-bottom:20px;
+}
+.img-part{
+  border-radius: 5px;
+  margin:0px;
+  border:1px solid #DDDDDD;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.img-section{
+  padding: 5px;
+}
+.img-section img{
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+}
+.image-title h3,h5{
+  margin:0px;
+  color:#4C4C4C;
+  padding: 15px 0px 8px 0px;
+}
+.image-description p{
+  color:#848484;
+}
+.price-btn{
+  border-radius:0px;
+  font-size: 11px;
+}
+.obrisi-proizvod {
+  right: 20px;
+  position: absolute;
+  z-index:99;
+}
+
+@media only screen and (max-width: 768px) {
+  .kucica-mat {
+    min-height: 250px;
+  }
+  .kucica-mat img {
+    width:150px;
+  }
+}
